@@ -224,7 +224,16 @@
 
 }
 
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .card {
+    width: 350px;
     margin-top: 45px;
     height: 300px;
     border-radius: 8px;
@@ -250,9 +259,70 @@
     padding: 0 10px;
 }
 
-.cards {
+
+
+.second-brain {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: inherit;
+    width: 80%;
+    margin: 0 auto;
+    height: 900px;
+    gap: 100px;
+
+}
+
+.second-brain img {
+    width: 750px;
+    height: auto;
+}
+
+.second-brain-texts #second-brain-texts-p1 {
+    color: rgba(70, 145, 101, 1);
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.second-brain-texts h1 {
+    color: rgba(0, 25, 49, 1);
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+
+.second-brain-texts #second-brain-texts-p2 {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px
+}
+
+.second-brain-texts {
+    text-align: left;
+}
+
+.check {
+    display: flex;
+
+}
+
+.check img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.check p {
+    color: rgba(0, 25, 49, 1);
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
 }
