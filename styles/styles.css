@@ -36,11 +36,12 @@
 #navbar-btn {
     width: 350px;
     height: 40px;
-    background-color: #26864e;
+    background-color: rgba(70, 145, 101, 1);
     color: white;
     border: 0;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero {
@@ -275,6 +276,7 @@
 .second-brain img {
     width: 750px;
     height: auto;
+    border-radius: 15px;
 }
 
 .second-brain-texts #second-brain-texts-p1 {
@@ -334,6 +336,7 @@
     align-items: center;
     flex-direction: column;
     background-color: rgba(247, 246, 242, 1);
+    border-radius: 15px;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -366,6 +369,7 @@
     padding: 16px;
     background-color: rgba(70, 145, 101, 1);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .last-btn p {
@@ -387,4 +391,64 @@
     font-weight: 400;
     line-height: 20px;
     text-align: center;
+    margin-top: 16px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #0b1440, #060b2a);
+    height: 400px;
+}
+
+.footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.footer-content img {
+    width: 139px;
+    height: 60px;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 1);
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px 0 0 0;
+}
+
+.social {
+    padding-right: 50px;
+}
+
+.footer small {
+    width: 80%;
+    margin: 0px auto 0 auto;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
